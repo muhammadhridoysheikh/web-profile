@@ -3,6 +3,7 @@ h1{
 }
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .name{
     color: orange;
@@ -14,5 +15,28 @@ body{
     padding-left: 2%;
 }
 .halfwidth img{
-    width: 100%;
+   width: 100%;
+}
+.top{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+
+}
+.hire-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato  );
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    ;
+}
+.dream-big{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
