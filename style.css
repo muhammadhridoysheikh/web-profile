@@ -40,3 +40,24 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.single{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+}
+.experience-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#first{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    background-color: white;
+}
+#second{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, blue , skyblue);
+    border-image-slice: 1;
+}
